@@ -1,7 +1,7 @@
 version: "3"
 services:
   library:
-    image: glarimy/library:latest
+    image: kgupta1/quiz:latest
     ports:
       - "8080:8080"
     networks:
