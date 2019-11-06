@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: library
+  labels:
+    name: library-pod
+spec:
+  containers:
+    -
+      name: library
+      image: glarimy/library
+      ports:
+        -
+          containerPort: 8080
