@@ -1,4 +1,4 @@
-version: "3"
+rversion: "3"
 services:
   library:
     image: kgupta1/quiz:latest
@@ -14,7 +14,7 @@ services:
     networks:
       - glarimy
     environment:
-      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=glarimy
 
 networks:
